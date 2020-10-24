@@ -1,0 +1,57 @@
+1. 
+- cd Lab1
+- git init
+- git status
+- git add .
+- git status
+- git commit -m "zadanie 1"
+
+2.
+- git remote add origin https://github.com/PatrykWalczynski/SrodowiskoProgramisty.git
+- git remote -v
+- git push origin master
+
+3. 
+- git clone https://github.com/PatrykWalczynski/SrodowiskoProgramisty.git
+
+4. 
+- touch nowy.c
+- git status
+- git add .
+- git status
+- git diff -- nowy.c
+- git restore nowy.c
+- git add .
+
+5. 
+- git rm nowy.c
+- git status
+- git restore nowy.c
+- git rm nowy.c
+- git commit -m "zadanie 5"
+
+6. 
+- touch nowy.gitignore
+- touch nowy.obj
+- git add .
+- git commit -m "zadanie 6"
+- git push 
+
+7. 
+- git log
+- git commit -m "zadanie 7"
+- git revert 14045c10107354e27aac2aa5084220478e956677
+
+8. 
+- git branch poprawki
+- git branch
+- git switch poprawki
+- git commit -m "zadanie 8"
+- git add .
+- git switch master
+- git merge poprawki
+- git branch -d poprawki
+
+10.
+$ ssh-keygen
+Umieszczamy klucz publiczny na stronie gitlaba
