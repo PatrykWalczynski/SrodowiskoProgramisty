@@ -1,0 +1,13 @@
+git init - inicjalizuje git'a
+git status - sprawdza obecny status repo
+git add . lub git add nazwa pliku - dodaje zmiany do poczekalni
+git push - wysyła zmiany na nasze repo
+git commit -m "komentarz" - tworzy komentarz do nowych zmian
+git restore nazwa pliku - przywraca usuniety plik
+git rm nazwa pliku - usuwa plik
+git revert ID - cofa zmiany podanego commita
+git branch - pokazuje wszystkie dostępne branche
+git branch nazwa - pozwala stworzyć nowy branch
+git switch nazwa brancha - pozwala zmienić branch
+git pull - sciąga ostatni z repo
+git merge nazwa brancha - łączy zmiany w obu branchach
